@@ -117,11 +117,11 @@ header .login-nav:hover {
   }
 
   .nav {
-    display: none; /* اخفاء القائمة افتراضيًا */
+    display: none; 
     flex-direction: column;
     position: fixed;
     top: 0;
-    left: -250px; /* اخفاء القائمة الجانبية خارج الشاشة */
+    left: -250px; 
     width: 250px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.9);
@@ -131,7 +131,7 @@ header .login-nav:hover {
   }
 
   .nav.show {
-    left: 0; /* إظهار القائمة الجانبية */
+    right: 0; 
   }
 
   .nav a {
